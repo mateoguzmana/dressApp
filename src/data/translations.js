@@ -1,3 +1,4 @@
+let Translations;
 export default Translations = {
     clothesView: {
         title: {
@@ -7,10 +8,10 @@ export default Translations = {
             fr: "Vêtements"
         },
         description: {
-            en: "Clothes for ${gender}",
-            sp: "Ropa para ${gender}",
-            pt: "Roupas pra ${gender}",
-            fr: "Vêtements pour ${gender}"
+            en: "Clothes for ${gender}.",
+            sp: "Ropa para ${gender}.",
+            pt: "Roupas pra ${gender}.",
+            fr: "Vêtements pour ${gender}."
         }
     }
 }

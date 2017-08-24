@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Translations from '../data/Translations';
 
 export default class Header extends Component {
 
@@ -12,8 +13,8 @@ export default class Header extends Component {
     render() {
         return (
             <div className="col-sm-6">
-                <h3>Clothess</h3>
-                <p>Clothe for gender {this.state.gender == "M" ? "Male" : "Female"}</p>
+                <h3>{Translations.clothesView.title["en"]}</h3>
+                <p>{Translations.clothesView.description["en"].replace("${gender}", this.state.gender == "M" ? "Male" : "Female")}</p>
             </div>
         );
     }
